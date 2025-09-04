@@ -1,0 +1,17 @@
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs (adjust based on your project)
+/dist/
+/build/
+*.css.map
+
+# Node.js dependencies (if used)
+node_modules/
