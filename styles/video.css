@@ -1,9 +1,3 @@
-p {
-  font-family: roboto, Arial, Helvetica, sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .thumbnail {
   width: 100%;
 }
@@ -14,11 +8,6 @@ p {
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 12px;
-}
-
-.search-bar {
-  display: block;
-  font-size: 20px;
 }
 
 .channel-info-grid {
