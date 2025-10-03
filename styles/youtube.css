@@ -5,8 +5,7 @@ p {
 }
 
 .thumbnail {
-  display: block;
-  width: 300px;
+  width: 100%;
 }
 
 .description {
@@ -22,21 +21,9 @@ p {
   font-size: 20px;
 }
 
-.video-preview {
-  display: inline-block;
-  width: 300px;
-  vertical-align: top;
-}
-
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-}
-
-.video-info {
-  display: inline-block;
-  width: 200px;
+.channel-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .profile-picture {
@@ -56,4 +43,11 @@ p {
 
 .author {
   margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 35px;
 }
